@@ -176,7 +176,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Library folder in the Finder.",
           "filename" : "open-library.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -225,7 +225,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Applications folder in the Finder.",
           "filename" : "open-applications.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -238,20 +238,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
-          "filename" : "open-utilities.sh",
-          "icon" : "📂",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Navigation",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Open Utilities"
-        },
-        {
-          "authors" : null,
-          "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the URL in the clipboard.",
           "filename" : "open-url-from-clipboard.sh",
           "icon" : "🌐",
           "mode" : "silent",
@@ -282,7 +269,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Desktop folder in the Finder.",
           "filename" : "open-desktop.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -295,7 +282,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Documents folder in the Finder.",
           "filename" : "open-documents.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -326,7 +313,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the URL from the clipboard in the desktop app.",
           "filename" : "open-desktop-url-from-clipboard.swift",
           "icon" : "🖥",
           "mode" : "silent",
@@ -339,7 +326,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Home folder in the Finder.",
           "filename" : "open-home.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -352,7 +339,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Downloads folder in the Finder.",
           "filename" : "open-downloads.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -453,6 +440,68 @@
           "schemaVersion" : 1,
           "title" : "Year Progress"
         }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Countdowns",
+          "path" : "countdowns",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "See how many days until Christmas.",
+              "filename" : "countdown-to-christmas.sh",
+              "icon" : "🎅🏻",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Countdown To Christmas",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Countdown to Christmas"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Create countdowns via Raycast.",
+              "filename" : "create-countdown.template.sh",
+              "icon" : "⏱",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Create Countdown.Template",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Countdown"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "See how many days\/hours until a specific date.",
+              "filename" : "countdown-to-date.template.sh",
+              "icon" : "⏱",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Countdown To Date.Template",
+              "refreshTime" : "10m",
+              "schemaVersion" : 1,
+              "title" : "Countdown to Date"
+            }
+          ]
+        }
       ]
     },
     {
@@ -480,6 +529,24 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Sample a colour from anywhere on your screen.",
+          "filename" : "sample-colour.swift",
+          "icon" : "🎨",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sample Colour"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -498,7 +565,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Empty the trash.",
           "filename" : "empty-trash.applescript",
           "icon" : "🗑",
           "mode" : "silent",
@@ -516,7 +583,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Refresh the current display's wallpaper.",
+          "description" : "Refresh the wallpaper of the main display's current [Space](https:\/\/support.apple.com\/guide\/mac-help\/work-in-multiple-spaces-mh14112\/mac).",
           "filename" : "wallpaper-refresh.applescript",
           "icon" : "🖼️",
           "mode" : "silent",
@@ -547,7 +614,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Quits all running applications except Finder and Raycast.",
           "filename" : "quit-all-apps.swift",
           "icon" : "💥",
           "mode" : "silent",
@@ -614,7 +681,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the last downloaded file.",
           "filename" : "open-last-download.swift",
           "icon" : "💁‍♂️",
           "mode" : "silent",
@@ -627,7 +694,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Ejects all mounted disk images.",
           "filename" : "eject-all-disks.applescript",
           "icon" : "📀",
           "mode" : "silent",
@@ -658,24 +725,6 @@
         {
           "authors" : [
             {
-              "name" : "Jesse Claven",
-              "url" : "https:\/\/github.com\/jesse-c"
-            }
-          ],
-          "currentDirectoryPath" : null,
-          "description" : "Define a word using the built-in dictionary\/dicionaries.",
-          "filename" : "define-word.swift",
-          "icon" : "🗣",
-          "mode" : "fullOutput",
-          "needsConfirmation" : null,
-          "packageName" : "System",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Define Word"
-        },
-        {
-          "authors" : [
-            {
               "name" : "Raycast",
               "url" : "https:\/\/raycast.com"
             }
@@ -694,7 +743,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copy the last downloaded file to the clipboard.",
           "filename" : "copy-last-download.swift",
           "icon" : "💁",
           "mode" : "silent",
@@ -707,7 +756,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copies the calenadar availability of today.",
           "filename" : "copy-availability.swift",
           "icon" : "📅",
           "mode" : "silent",
@@ -720,7 +769,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copies the last screenshot to the clipboard.",
           "filename" : "copy-last-screenshot.swift",
           "icon" : "📸",
           "mode" : "silent",
@@ -733,7 +782,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Restarts computer.",
           "filename" : "restart.applescript",
           "icon" : "♻️",
           "mode" : "silent",
@@ -764,7 +813,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Shuts down computer.",
           "filename" : "shutdown.applescript",
           "icon" : "🛌",
           "mode" : "silent",
@@ -777,7 +826,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Puts computer to sleep.",
           "filename" : "sleep.applescript",
           "icon" : "😴",
           "mode" : "silent",
@@ -796,7 +845,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Open the GitHub repository for Script Commands provided by the community.",
           "filename" : "open-script-commands-repository.sh",
           "icon" : "📜",
           "mode" : "silent",
@@ -815,7 +864,33 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Escapes shell character string and copies it again.",
+          "filename" : "escape-shell-chars.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Escape String for Shell"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : "Encodes clipboard content url and copies it again.",
+          "filename" : "encode-url.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Encode URL"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : "Encodes clipboard content to Base64 and copies it again.",
           "filename" : "encode-base64.sh",
           "icon" : "💻",
           "mode" : "silent",
@@ -828,7 +903,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Decodes JSON web token from the clipboard.",
           "filename" : "decode-jwt.sh",
           "icon" : "images\/jwt-logo.png",
           "mode" : "fullOutput",
@@ -900,7 +975,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Runs the specified command in the path of the frontmost Finder window.",
           "filename" : "run-command-in-finder.sh",
           "icon" : "🛠",
           "mode" : "silent",
@@ -967,7 +1042,20 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Decodes clipboard content url and copies it again.",
+          "filename" : "decode-url.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Decode URL"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : "Generates a UUID and copies it to the clipboard.",
           "filename" : "generate-uuid.sh",
           "icon" : "💻",
           "mode" : "silent",
@@ -998,7 +1086,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copy one paragraph of Lorem Ipsum to clipboard.",
           "filename" : "lorem-ipsum.sh",
           "icon" : "📝",
           "mode" : "silent",
@@ -1011,7 +1099,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Decodes clipboard content to Base64 and copies it again.",
           "filename" : "decode-base64.sh",
           "icon" : "💻",
           "mode" : "silent",
@@ -1042,7 +1130,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Pretty prints the JSON currently in the clipboard.",
           "filename" : "prettify-json.sh",
           "icon" : "💻",
           "mode" : "fullOutput",
@@ -1055,7 +1143,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Clear the derived data of Xcode.",
           "filename" : "clear-derived-data.sh",
           "icon" : "🧹",
           "mode" : "compact",
@@ -1085,6 +1173,66 @@
         }
       ],
       "subGroups" : [
+        {
+          "name" : "Gitlab",
+          "path" : "gitlab",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show merge requests from GitLab",
+              "filename" : "gitlab-mergerequests.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Merge Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show todos from GitLab",
+              "filename" : "gitlab-todos.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "To-Dos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show issues from GitLab",
+              "filename" : "gitlab-issues.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Issues"
+            }
+          ]
+        },
         {
           "name" : "Google",
           "path" : "google",
@@ -1273,7 +1421,7 @@
               "currentDirectoryPath" : null,
               "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
               "filename" : "create-github-gist.template.sh",
-              "icon" : "images\/github-logo.png",
+              "icon" : "images\/github-logo-iconDark.png",
               "mode" : "compact",
               "needsConfirmation" : true,
               "packageName" : "GitHub",
@@ -1320,13 +1468,37 @@
           ]
         },
         {
+          "name" : "Sentry",
+          "path" : "sentry",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show unresolved issues of the last 24 hours from Sentry.",
+              "filename" : "sentry-unresolved-issues.template.py",
+              "icon" : "images\/sentry.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Sentry",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Unresolved Issues"
+            }
+          ]
+        },
+        {
           "name" : "Ip",
           "path" : "ip",
           "scriptCommands" : [
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the local IPv4 to the clipboard.",
               "filename" : "get-local-ip-v4.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1357,7 +1529,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the external IPv4 to the clipboard.",
               "filename" : "get-external-ip-v4.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1388,7 +1560,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the external IPv6 to the clipboard.",
               "filename" : "get-external-ip-v6.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1401,7 +1573,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the local IPv6 to the clipboard.",
               "filename" : "get-local-ip-v6.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1551,24 +1723,6 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Show Cloudup popup.",
-              "filename" : "cloudup-show.sh",
-              "icon" : "images\/cloudup-logo.png",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Cloudup",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Show"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Caleb Stauffer",
-                  "url" : "https:\/\/github.com\/crstauf"
-                }
-              ],
-              "currentDirectoryPath" : null,
               "description" : "Upload path or URL in clipboard to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-upload.sh",
               "icon" : "images\/cloudup-logo.png",
@@ -1656,6 +1810,30 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Search and Copy First Related Emoji"
+            }
+          ]
+        },
+        {
+          "name" : "Gmail",
+          "path" : "gmail",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open gmail.com in the default browser",
+              "filename" : "google-gmail.sh",
+              "icon" : "images\/google-gmail-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Google",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Gmail"
             }
           ]
         }
@@ -1800,6 +1978,24 @@
           "title" : "Search in Twitter"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [Unsplash](https:\/\/unsplash.com).",
+          "filename" : "search-unsplash.sh",
+          "icon" : "images\/unsplash-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Unsplash"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1811,6 +2007,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Amazon"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [WP Engine](https:\/\/wpengine.com) installs.",
+          "filename" : "search-wpengine-installs.sh",
+          "icon" : "images\/wpengine-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search WP Engine Installs"
         },
         {
           "authors" : [
@@ -1833,6 +2047,24 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open specified [WP Engine](https:\/\/wpengine.com) install.",
+          "filename" : "wpengine-install.sh",
+          "icon" : "images\/wpengine-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open WP Engine Install"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -1847,6 +2079,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Caniuse.com search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Tanguy Le Stradic",
+              "url" : "https:\/\/github.com\/tanguyls"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search files in Figma",
+          "filename" : "figma.sh",
+          "icon" : "images\/figma.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Figma"
         },
         {
           "authors" : [
@@ -1995,13 +2245,49 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "wayback-machine.sh",
-          "icon" : "⬅️",
+          "icon" : "images\/ia-logo.jpg",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
           "refreshTime" : null,
           "schemaVersion" : 1,
-          "title" : "Wayback Machine search"
+          "title" : "Wayback Machine Search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [PHP official documentation](https:\/\/www.php.net\/docs.php).",
+          "filename" : "search-php-docs.sh",
+          "icon" : "images\/php-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search PHP Docs"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Traynham",
+              "url" : "https:\/\/github.com\/traynham"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search in MDN (Mozilla) Docs by topic",
+          "filename" : "mdn.sh",
+          "icon" : "images\/mdn_light.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in MDN (Mozilla) Docs by Topic"
         }
       ],
       "subGroups" : [
@@ -2212,6 +2498,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Set volume in Music.",
+              "filename" : "apple-music-set-volume.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Play Music.",
               "filename" : "apple-music-play.applescript",
               "icon" : "images\/apple-music-logo.png",
@@ -2363,7 +2667,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Skips to the next track in Spotify.",
               "filename" : "spotify-next-track.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2376,7 +2680,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Toggles play or pause of current track in Spotify.",
               "filename" : "spotify-play-pause.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2407,7 +2711,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Plays current track in Spotify.",
               "filename" : "spotify-play.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2438,7 +2742,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Skips to the previous track in Spotify.",
               "filename" : "spotify-previous-track.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2451,7 +2755,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Pause current track in Spotify.",
               "filename" : "spotify-pause.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2467,6 +2771,42 @@
           "name" : "Apple Tv",
           "path" : "apple-tv",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set volume in TV.",
+              "filename" : "apple-tv-set-volume.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Play specified movie from library in TV.",
+              "filename" : "apple-tv-play-movie.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Movie"
+            },
             {
               "authors" : [
                 {
@@ -2526,5 +2866,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-01T15:21:14Z"
+  "updatedAt" : "2020-12-18T16:54:42Z"
 }
