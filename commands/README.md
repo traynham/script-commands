@@ -10,6 +10,8 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
+- [Apps](#apps)
+  - [Amphetamine](#amphetamine)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -37,6 +39,15 @@ This repository contains sample commands and documentation to write your own one
 - [System](#system)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
+
+## Apps
+
+#### Amphetamine
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png?raw=true" width="20" height="20"> | [End Session](apps/amphetamine/amphetamine-off.applescript) | Stop Current Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png?raw=true" width="20" height="20"> | [Start Default Session](apps/amphetamine/amphetamine-on.applescript) | Start Default Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |
 
 ## Bookmarks
 
@@ -108,6 +119,7 @@ This repository contains sample commands and documentation to write your own one
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from [wttr.in](https://wttr.in/). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli). | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
+| 🕐 | [World Time](dashboard/world-time.sh) | Show the time from elsewhere in the world | [Jesse Claven](https://github.com/jesse-c) |
 | ⏱ | [Year Progress](dashboard/year-progress.sh) | See the year progress on your desktop. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 #### Countdowns
@@ -133,6 +145,7 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Escape String for Shell](developer-utils/escape-shell-chars.sh) | Escapes shell character string and copies it again. | Raycast |
 | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | Generates a UUID and copies it to the clipboard. | Raycast |
+| 🩺 | [Is It Up?](developer-utils/is-it-up.sh) | Check if a website is up | [Jesse Claven](https://github.com/jesse-c) |
 | 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | Pretty prints the JSON currently in the clipboard. | Raycast |
@@ -264,6 +277,7 @@ This repository contains sample commands and documentation to write your own one
 | 📂 | [Open Documents](navigation/open-documents.sh) | Opens the Documents folder in the Finder. | Raycast |
 | 📂 | [Open Downloads](navigation/open-downloads.sh) | Opens the Downloads folder in the Finder. | Raycast |
 | 📂 | [Open Home](navigation/open-home.sh) | Opens the Home folder in the Finder. | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/./images/pixelmator-pro-2.0.png?raw=true" width="20" height="20"> | [Open Image From Clipboard](navigation/open-clipboard-in-pixelmator-pro.applescript) | Creates a new document in Pixelmator Pro from the image stored in your clipboard. | [Bryce Carr](https://github.com/bdcarr) |
 | 📂 | [Open Library](navigation/open-library.sh) | Opens the Library folder in the Finder. | Raycast |
 | 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | Opens the URL in the clipboard. | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/bear.png?raw=true" width="20" height="20"> | [Search in Bear](navigation/search-in-bear.sh) | N/A | Jax0rz |
@@ -292,9 +306,11 @@ This repository contains sample commands and documentation to write your own one
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png?raw=true" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
 | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi-dark.png?raw=true" width="20" height="20"> | [Toggle Wi-Fi](system/wifi.template.applescript) | Toggle your Wi-Fi connection. | [Vincent Dörig](https://github.com/vincentdoerig) |
 | 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |
 | 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Turn on "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |
 
@@ -308,6 +324,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wpengine-logo.png?raw=true" width="20" height="20"> | [Open WP Engine Install](web-searches/wpengine-install.sh) | Open specified [WP Engine](https://wpengine.com) install. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📦 | [Open npm Package Repo](web-searches/repo.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search [GitHub](https://github.com). | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/go.png?raw=true" width="20" height="20"> | [Search Go Package Documentation](web-searches/pkg-go-dev.sh) | Search pkg.go.dev for package documentation | [Phil Salant](https://github.com/PSalant726) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mozilla-developer-network.png?raw=true" width="20" height="20"> | [Search MDN (Mozilla Developer Network)](web-searches/mozilla-developer-network.sh) | N/A | [Jon Callahan](https://www.joncallahan.com) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/netflix-logo.png?raw=true" width="20" height="20"> | [Search Netflix](web-searches/search-netflix.sh) | Search Netflix. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/php-logo.png?raw=true" width="20" height="20"> | [Search PHP Docs](web-searches/search-php-docs.sh) | Search [PHP official documentation](https://www.php.net/docs.php). | [Caleb Stauffer](https://github.com/crstauf) |

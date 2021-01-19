@@ -287,6 +287,24 @@
         {
           "authors" : [
             {
+              "name" : "Bryce Carr",
+              "url" : "https:\/\/github.com\/bdcarr"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Creates a new document in Pixelmator Pro from the image stored in your clipboard.",
+          "filename" : "open-clipboard-in-pixelmator-pro.applescript",
+          "icon" : ".\/images\/pixelmator-pro-2.0.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Pixelmator Pro",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Image From Clipboard"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jax0rz",
               "url" : null
             }
@@ -511,6 +529,24 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Year Progress"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Show the time from elsewhere in the world",
+          "filename" : "world-time.sh",
+          "icon" : "🕐",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "5s",
+          "schemaVersion" : 1,
+          "title" : "World Time"
         }
       ],
       "subGroups" : [
@@ -769,6 +805,24 @@
           "title" : "Toggle System Appearance"
         },
         {
+          "authors" : [
+            {
+              "name" : "Vincent Dörig",
+              "url" : "https:\/\/github.com\/vincentdoerig"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle your Bluetooth connection.",
+          "filename" : "bluetooth.template.applescript",
+          "icon" : "images\/bluetooth.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Bluetooth"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the last downloaded file.",
@@ -847,6 +901,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Desktop Icons"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Vincent Dörig",
+              "url" : "https:\/\/github.com\/vincentdoerig"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle your Wi-Fi connection.",
+          "filename" : "wifi.template.applescript",
+          "icon" : "images\/wifi-dark.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Wi-Fi"
         },
         {
           "authors" : null,
@@ -1020,6 +1092,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Decode JWT"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if a website is up",
+          "filename" : "is-it-up.sh",
+          "icon" : "🩺",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Is It Up?"
         },
         {
           "authors" : [
@@ -2099,6 +2189,24 @@
         {
           "authors" : [
             {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search pkg.go.dev for package documentation",
+          "filename" : "pkg-go-dev.sh",
+          "icon" : "images\/go.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Go Package Documentation"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -2612,6 +2720,57 @@
       ]
     },
     {
+      "name" : "Apps",
+      "path" : "apps",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Amphetamine",
+          "path" : "amphetamine",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start Default Amphetamine Session",
+              "filename" : "amphetamine-on.applescript",
+              "icon" : "images\/amphetamine.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Amphetamine",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Default Session"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop Current Amphetamine Session",
+              "filename" : "amphetamine-off.applescript",
+              "icon" : "images\/amphetamine.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Amphetamine",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "End Session"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Media",
       "path" : "media",
       "scriptCommands" : [
@@ -3088,5 +3247,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-05T12:35:22Z"
+  "updatedAt" : "2021-01-19T15:46:25Z"
 }
